@@ -11,18 +11,11 @@ body {
 }
 
 header {
-  background: white;
+  background: aqua;
   position: fixed;
-  box-shadow: 4px;
   width: 100%;
   top: 0;
   z-index: 1;
-}
-
-nav {
-  display: flex;
-
-  align-items: center;
 }
 
 nav ul {

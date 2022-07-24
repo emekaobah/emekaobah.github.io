@@ -1,0 +1,123 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 1024px;
+  width: 90%;
+  margin: 0 auto;
+}
+
+header {
+  background: white;
+  position: fixed;
+  box-shadow: 4px;
+  width: 100%;
+  top: 0;
+  z-index: 1;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav ul {
+  display: flex;
+
+  font-size: 1.2rem;
+}
+
+.nav-icon {
+  height: 30px;
+  width: 30px;
+}
+
+ul li {
+  margin-right: 1rem;
+  list-style: none;
+  text-decoration: none;
+  padding: 1em 0;
+}
+nav a {
+  color: black;
+  text-decoration: none;
+  font-size: 1.5rem;
+}
+footer {
+  background-color: white;
+  position: relative;
+  box-shadow: 4px;
+  width: 100%;
+  margin-top: 2rem;
+  bottom: 0;
+  z-index: 1;
+}
+footer p {
+  text-align: center;
+}
+footer span {
+  color: red;
+}
+
+main {
+  margin-top: 4rem;
+}
+
+p {
+  font-size: 1.25rem;
+}
+
+/* PORTFOLIO */
+
+.portfolio {
+  display: flex;
+  margin: 0 auto;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 2em;
+}
+
+.portfolio a {
+  text-decoration: none;
+}
+
+.case-study {
+  width: 300px;
+  height: 300px;
+  border: 1px solid black;
+  border-radius: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.case-study p {
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-decoration: none;
+  text-align: center;
+  color: black;
+}
+
+@media only screen and (min-width: 500px) {
+  .container {
+    max-width: 1024px;
+  }
+  .title .container {
+    display: flex;
+
+    max-width: 60%;
+  }
+  .skills {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .focus {
+    width: 30%;
+  }
+}

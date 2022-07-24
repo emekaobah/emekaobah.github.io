@@ -40,6 +40,7 @@ a:focus {
   height: 80vh;
   width: 90%;
   justify-content: center;
+  margin: 0 auto;
 }
 p {
   margin-bottom: 1em;

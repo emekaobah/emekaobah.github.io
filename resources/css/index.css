@@ -1,78 +1,123 @@
-/* Reset Defaults */
-
-* {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
-}
-
-/* Global Styles */
-
 html,
 body {
-  font-family: "Roboto Mono", monospace;
-  /* color: #2a2a2a; */
-  color: #1a1a1a;
-  /* font-size: 1.125rem; */
-}
-a {
-  color: orangered;
-}
-a:hover,
-a:focus {
-  color: #fff;
-  text-decoration: none;
-  background-color: orange;
+  margin: 0;
+  padding: 0;
 }
 
 .container {
+  max-width: 1024px;
+  width: 90%;
   margin: 0 auto;
-  max-width: 500px;
 }
-.container-flex {
+
+header {
+  background: white;
+  position: fixed;
+  box-shadow: 4px;
+  width: 100%;
+  top: 0;
+  z-index: 1;
+}
+
+nav {
   display: flex;
   justify-content: space-between;
-}
-
-.main {
-  display: flex;
-  flex-direction: column;
-  height: 80vh;
-  width: 90%;
-  justify-content: center;
-  margin: 0 auto;
-}
-p {
-  margin-bottom: 1em;
-}
-.header {
-  margin-top: 2em;
-  margin-bottom: 2em;
   align-items: center;
-  width: 90%;
 }
 
-.nav ul {
+nav ul {
+  display: flex;
+
+  font-size: 1.2rem;
+}
+
+.nav-icon {
+  height: 30px;
+  width: 30px;
+}
+
+ul li {
+  margin-right: 1rem;
   list-style: none;
-  font-weight: bold;
-}
-
-.nav li {
-  display: inline;
-  padding-top: 0.25em;
-  padding-bottom: 0.25em;
-  margin-left: 0.5em;
-}
-.nav a {
   text-decoration: none;
-  font-size: 1rem;
+  padding: 1em 0;
+}
+nav a {
+  color: black;
+  text-decoration: none;
+  font-size: 1.5rem;
+}
+footer {
+  background-color: white;
+  position: relative;
+  box-shadow: 4px;
+  width: 100%;
+  margin-top: 2rem;
+  bottom: 0;
+  z-index: 1;
+}
+footer p {
+  text-align: center;
+}
+footer span {
+  color: red;
 }
 
-.current-page {
-  border-bottom: 2px solid orangered;
-  color: #2a2a2a;
+main {
+  margin-top: 4rem;
 }
 
-.current-page:hover {
-  color: #2a2a2a;
+p {
+  font-size: 1.25rem;
+}
+
+/* PORTFOLIO */
+
+.portfolio {
+  display: flex;
+  margin: 0 auto;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 2em;
+}
+
+.portfolio a {
+  text-decoration: none;
+}
+
+.case-study {
+  width: 300px;
+  height: 300px;
+  border: 1px solid black;
+  border-radius: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.case-study p {
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-decoration: none;
+  text-align: center;
+  color: black;
+}
+
+@media only screen and (min-width: 500px) {
+  .container {
+    max-width: 1024px;
+  }
+  .title .container {
+    display: flex;
+
+    max-width: 60%;
+  }
+  .skills {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .focus {
+    width: 30%;
+  }
 }

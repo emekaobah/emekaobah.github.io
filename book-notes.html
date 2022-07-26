@@ -4,16 +4,40 @@
     <title>Book Notes</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="resources/css/book-notes.css" />
-    <link rel="stylesheet" href="resources/css/footer.css" />
+    <!-- Roboto Condensed -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Montserat -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
-    <div class="container">
-      <header>
-        <h1>Book Notes</h1>
-        <!-- <p>Notes and highlights from the books I've enjoyed reading.</p> -->
-      </header>
+    <header>
+      <nav class="container">
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Projects</a></li>
+          <li><a href="#">Book Notes</a></li>
 
-      <main>
+          <li><a href="#">About</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section class="title container">
+        <h2>Book Notes</h2>
+        <p>Personal notes and higlights from books I've enjoyed reading.</p>
+      </section>
+      <section class="books container">
         <div class="book-note">
           <img src="resources/images/1pmp-book-image.jpeg" class="book-img" />
         </div>
@@ -77,10 +101,10 @@
             class="book-img"
           />
         </div>
-      </main>
-      <footer>
-        <p>Made with <span>&hearts;</span> in Lagos.</p>
-      </footer>
-    </div>
+      </section>
+    </main>
+    <footer class="container">
+      <p>Made with <span>&hearts;</span> in Lagos.</p>
+    </footer>
   </body>
 </html>

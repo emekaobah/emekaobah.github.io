@@ -54,9 +54,12 @@ li a {
   text-decoration: none;
   color: purple;
   font-weight: bold;
-  margin-right: 1em;
-  /* display: flex; */
-  /* padding: 0.5em 1em; */
+  margin-right: 0.75em;
+  font-size: 0.9em;
+}
+
+li:nth-last-child() {
+  margin-right: 0;
 }
 
 .title {

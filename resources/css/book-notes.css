@@ -92,18 +92,60 @@ h2 {
 
 /* FOOTER */
 
+.form {
+  width: 90%;
+}
+
+label {
+  opacity: 0.4;
+}
+
+input,
+textarea {
+  width: 100%;
+  margin-top: 0.5em;
+  margin-bottom: 1.5em;
+  border-radius: 8px;
+  border: 0.1px;
+}
+input::selection {
+  border: 0.5px solid purple;
+}
+input {
+  min-height: 3em;
+}
+
+textarea {
+  min-height: 10em;
+}
+
+.submit-button {
+  border-radius: 8px;
+  height: 3em;
+  color: purple;
+  background-color: white;
+  font-weight: bold;
+  text-transform: uppercase;
+  border: 0.5px solid purple;
+}
+.submit-button:hover {
+  background-color: purple;
+  color: white;
+}
+
 footer {
-  position: relative;
   box-shadow: 4px;
   width: 100%;
   margin-top: 2rem;
   bottom: 0;
   z-index: 1;
 }
+
 footer p {
   text-align: center;
   padding-bottom: 2em;
 }
 footer span {
   color: red;
+  position: relative;
 }

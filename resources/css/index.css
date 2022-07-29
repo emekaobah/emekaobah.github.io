@@ -26,43 +26,9 @@ a {
   font-size: 1rem;
 }
 
-/* NAVIGATION */
+/* MAIN */
 
-header {
-  background: #f6f5f0;
-  position: fixed;
-  width: 100%;
-
-  padding: 0;
-  margin: 0;
-  top: 0;
-  z-index: 1;
-}
-
-nav {
-  margin: 0;
-  padding: 0;
-}
-
-ul {
-  display: flex;
-  list-style-type: none;
-  padding: 0;
-}
-
-li a {
-  text-decoration: none;
-  color: purple;
-  font-weight: bold;
-  margin-right: 0.75em;
-  font-size: 0.9em;
-}
-
-li:nth-last-child() {
-  margin-right: 0;
-}
-
-.title {
+main {
   margin-top: 4rem;
 }
 
@@ -100,7 +66,7 @@ a:hover {
 }
 /* PORTFOLIO */
 
-.portfolio {
+/* .portfolio {
   display: flex;
   margin: 0 auto;
   align-items: center;
@@ -110,9 +76,9 @@ a:hover {
 
 .portfolio a {
   text-decoration: none;
-}
+} */
 
-.case-study {
+/* .case-study {
   width: 300px;
   height: 300px;
   border: 1px solid black;
@@ -128,7 +94,7 @@ a:hover {
   text-decoration: none;
   text-align: center;
   color: black;
-}
+} */
 
 @media only screen and (min-width: 500px) {
   .container {
@@ -144,64 +110,4 @@ a:hover {
   .focus {
     width: 30%;
   }
-}
-
-/* FOOTER */
-
-.form {
-  width: 90%;
-}
-
-label {
-  opacity: 0.4;
-}
-
-input,
-textarea {
-  width: 100%;
-  margin-top: 0.5em;
-  margin-bottom: 1.5em;
-  border-radius: 8px;
-  border: 0.1px;
-}
-input::selection {
-  border: 0.5px solid purple;
-}
-input {
-  min-height: 3em;
-}
-
-textarea {
-  min-height: 10em;
-}
-
-.submit-button {
-  border-radius: 8px;
-  height: 3em;
-  color: purple;
-  background-color: white;
-  font-weight: bold;
-  text-transform: uppercase;
-  border: 0.5px solid purple;
-}
-.submit-button:hover {
-  background-color: purple;
-  color: white;
-}
-
-footer {
-  box-shadow: 4px;
-  width: 100%;
-  margin-top: 4rem;
-  bottom: 0;
-  z-index: 1;
-}
-
-footer p {
-  text-align: center;
-  padding-bottom: 2em;
-}
-footer span {
-  color: red;
-  position: relative;
 }

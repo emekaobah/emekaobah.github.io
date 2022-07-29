@@ -26,42 +26,7 @@ a {
   font-size: 1rem;
 }
 
-/* Navigation */
-
-header {
-  background: #f6f5f0;
-  position: fixed;
-  width: 100%;
-  padding: 0;
-  margin: 0;
-  top: 0;
-  z-index: 1;
-}
-
-nav {
-  margin: 0;
-  padding: 0;
-}
-
-ul {
-  display: flex;
-  list-style-type: none;
-  padding: 0;
-}
-
-li a {
-  text-decoration: none;
-  color: purple;
-  font-weight: bold;
-  margin-right: 0.75em;
-  font-size: 0.9em;
-}
-
-li:nth-last-child() {
-  margin-right: 0;
-}
-
-.title {
+main {
   margin-top: 4rem;
 }
 

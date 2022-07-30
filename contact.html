@@ -33,24 +33,23 @@
   </head>
   <body>
     <header>
-        <nav class="container">
-          <ul>
-            <li><a href="./index.html">Home</a></li>
-            <li><a href="#">Projects</a></li>
-            <li><a href="./book-notes.html">Book Notes</a></li>
-            <li><a href='./contact.html'>Contact</a></li>
-          </ul>
-        </nav>
-      </header>
+      <nav class="container">
+        <ul>
+          <li><a href="./index.html">Home</a></li>
+          <li><a href="#">Projects</a></li>
+          <li><a href="./book-notes.html">Book Notes</a></li>
+          <li><a href="./contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
     <main>
       <section class="container">
-         
         <h2>Contact</h2>
         <div class="form">
-          <form action="https://formsubmit.co/ab7d5f32b61df5e989666de8cd6d11d8"  method="POST">
+          <!-- <form action="https://formsubmit.co/ab7d5f32b61df5e989666de8cd6d11d8"  method="POST">
             <input type="hidden" name="_next" value="https://emekaobah.github.io/thankyou.html">
 
-            <!-- <label for="firstName">First Name *</label> -->
+             <label for="firstName">First Name *</label>
             <br />
             <input
               type="text"
@@ -60,7 +59,7 @@
               
             ><br/>
 
-            <!-- <label for="lastName">Last Name *</label> -->
+            <label for="lastName">Last Name *</label>
             <br />
             <input
               type="text"
@@ -70,7 +69,7 @@
 
               
             ><br />
-            <!-- <label for="email">Email *</label> -->
+            <label for="email">Email *</label>
             <br />
             <input
               type="text"
@@ -79,7 +78,7 @@
               required
               
             ><br />
-            <!-- <label for="subject">Subject *</label><br /> -->
+            <label for="subject">Subject *</label><br /> 
             <input
               type="hidden"
              
@@ -88,7 +87,7 @@
               required
               
             ><br />
-            <!-- <label for="subject">Message *</label> -->
+             <label for="subject">Message *</label>
             <br />
             <textarea>
 
@@ -102,13 +101,21 @@
             <br />
             
             <button class="submit-button" type="submit">Submit</button>
+          </form> -->
+
+          <form
+            action="https://formsubmit.co/ab7d5f32b61df5e989666de8cd6d11d8"
+            method="POST"
+          >
+            <input type="text" name="name" required />
+            <input type="email" name="email" required />
+            <button type="submit">Send</button>
           </form>
         </div>
-       
       </section>
     </main>
     <footer>
-        <p class="container">Made with <span>&hearts;</span> in Lagos.</p>
-      </footer>
+      <p class="container">Made with <span>&hearts;</span> in Lagos.</p>
+    </footer>
   </body>
 </html>

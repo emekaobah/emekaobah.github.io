@@ -9,10 +9,13 @@
     />
     <meta charset="UTF-8" />
     <title>Chukwuemeka Obah</title>
+
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- CSS -->
     <link rel="stylesheet" href="./resources/css/index.css" />
     <link rel="stylesheet" href="./resources/css/header.css" />
     <link rel="stylesheet" href="./resources/css/footer.css" />
+    <link rel="stylesheet" href="./resources/css/contact.css" />
     <!--Roboto Condensed -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -39,58 +42,67 @@
           </ul>
         </nav>
       </header>
-    <main></main>
+    <main>
+      <section class="container">
+         
+        <h2>Contact</h2>
+        <div class="form">
+          <form action="https://formsubmit.co/emekaobah@gmail.com" enctype="text/plain" method="POST">
+
+            <label for="firstName">First Name *</label><br />
+            <input
+              type="text"
+              id="firstName"
+              name="firstName"
+              required
+              
+            ><br id='contact'/>
+
+            <label for="lastName">Last Name *</label><br />
+            <input
+              type="text"
+              id="lastName"
+              name="lastName"
+              required
+
+              
+            ><br />
+            <label for="email">Email *</label><br />
+            <input
+              type="text"
+              id="email"
+              name="email"
+              required
+              
+            ><br />
+            <!-- <label for="subject">Subject *</label><br /> -->
+            <input
+              type="hidden"
+              id="subject"
+              name="subject"
+              value="New Contact Enquiry"
+              required
+              
+            ><br />
+            <label for="subject">Message *</label><br />
+            <textarea>
+
+            </textarea  type="textarea"
+            id="message"
+            name="message"
+            placeholder="Glad to here from you!"
+            rows='10' col='20'
+            required>
+             
+            <br />
+            <button class="submit-button" type="submit">Submit</button>
+          </form>
+        </div>
+       
+      </section>
+    </main>
     <footer  >
-        <section  class="container">
-         
-          <h2>Contact</h2>
-          <div class="form">
-            <form>
-
-              <label for="fName">First Name *:</label><br />
-              <input
-                type="text"
-                id="fName"
-                name="fName"
-                
-              /><br id='contact'/>
-
-              <label for="lName">Last Name *</label><br />
-              <input
-                type="text"
-                id="lName"
-                name="lName"
-                
-              /><br />
-              <label for="email">Email *</label><br />
-              <input
-                type="text"
-                id="email"
-                name="email"
-                
-              /><br />
-              <label for="subject">Subject *</label><br />
-              <input
-                type="text"
-                id="subject"
-                name="subject"
-                
-              /><br />
-              <label for="subject">Message *</label><br />
-              <textarea>
-  
-              </textarea  type="textarea"
-              id="message"
-              name="message"
-              placeholder="Glad to here from you!"
-              rows='10' col='10'>
-               
-              <br />
-              <input class='submit-button' type="submit" value="Submit">
-            </form>
-          </div>
-         
-        </section>
+       
         <p class="container">Made with <span>&hearts;</span> in Lagos.</p>
       </footer>
   </body>

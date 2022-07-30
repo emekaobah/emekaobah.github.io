@@ -1,0 +1,26 @@
+.container {
+  /* border: 2px solid red; */
+  display: flex;
+  height: 50vh;
+  width: 89vw;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  border-radius: 8px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.success-msg {
+  text-align: center;
+  text-transform: capitalize;
+  /* margin: 0 auto; */
+  /* border: 1px solid red; */
+}
+
+.success {
+  width: 100px;
+  margin: 0 auto;
+
+  /* border: 1px solid red; */
+}

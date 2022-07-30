@@ -1,0 +1,46 @@
+input,
+textarea {
+  appearance: none;
+}
+.form {
+  width: 90%;
+}
+
+label {
+  opacity: 0.4;
+}
+
+input,
+textarea {
+  width: 100%;
+  margin-top: 0.5em;
+  margin-bottom: 1.5em;
+  border-radius: 8px;
+  border: 0.1px;
+}
+input:focus,
+textarea:focus {
+  outline: none;
+  border: 1px solid purple;
+}
+input {
+  min-height: 3em;
+}
+
+textarea {
+  min-height: 10em;
+}
+
+.submit-button {
+  border-radius: 8px;
+  height: 3em;
+  color: white;
+  background-color: purple;
+  font-weight: bold;
+  text-transform: uppercase;
+  padding: 0.5em 1em;
+}
+.submit-button:hover {
+  background-color: white;
+  color: purple;
+}
